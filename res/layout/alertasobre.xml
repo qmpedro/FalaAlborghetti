@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/logo"
+        android:layout_marginTop="20sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Sobre"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#fff" />
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/sobretexto"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+	
+    <Button
+        android:id="@+id/btOk"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn"
+        android:textColor="#f00"
+        android:background="#000"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="40sp"
+        android:layout_marginBottom="20sp" />
+
+</LinearLayout>

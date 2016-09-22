@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fala Alborghetti</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn">Fechar</string>	
+    <string name="logo">Redislú &amp; Picurí</string>
+	<string name="Sobre">Redislú &amp; Picurí &#174;</string>
+	<string name="sobretexto">www.redisluepicuri.com</string>
+</resources>
